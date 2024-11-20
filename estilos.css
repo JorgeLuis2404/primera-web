@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    font-family: Tahoma;
+    
+}
+.header{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: auto;
+}
+    .menu{
+        display: flex;
+        flex-direction: row;
+        height: auto;
+    }
+        .nav{
+            flex: 1 1 60%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+            .enlace{
+                text-decoration: none;
+                font-size: 20px;
+                background: rgb(103, 178, 181);
+                color: #fff;
+                padding: 5px;
+            }
+        .logo{
+            flex: 1 1 15%;
+            font-family: Tahoma;
+            font-size: 40px;
+            color: rgb(189, 221, 154);
+            opacity: 0.5;
+            text-align: center;
+        }
+        .sociales{
+            flex: 1 1 15%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            .media{
+                text-decoration: none;
+                font-size: 20px;
+                margin: 5px;
+            }
+    .titulo{
+        background: #77f;
+        height: 580px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        .texto{
+            background: yellow;
+            height: 100px;
+            width: 60%;
+        }
+.section{
+    background: #789;
+    display: flex;
+    height: 400px;
+    flex-direction: row;
+}
+    .article{
+        background: green;
+        flex: 1 1 60%;
+        display: flex;      
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+        .articulos{
+            background: rgb(193, 78, 78);
+            flex: 1 1 40%;
+        }
+        .navegacion{
+            background: rgb(36, 113, 120);
+            flex: 1 1 100%;
+        }
+    .aside{
+        background: rgb(117, 26, 111);
+        flex: 1 1 25%;
+    }
+        .publicidad{
+            background: rgb(52, 182, 156);
+        }
+.footer{
+    background: #d5b;
+    display: flex;
+    justify-content: center;
+
+}
+    .pie{
+        background: rgb(175, 203, 51);
+        width: 300px;
+    }
