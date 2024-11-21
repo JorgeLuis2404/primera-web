@@ -1,0 +1,168 @@
+*{ 
+    box-sizing: border-box;
+    font-family: Tahoma;
+    
+}
+.header{
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1)), url(1.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: auto;
+}
+    .menu{
+        display: flex;
+        flex-direction: row;
+        height: auto;
+       box-shadow: 0 0 30px 1px #777;
+    }
+        .nav{
+            flex: 1 1 60%;
+            display: flex; 
+            justify-content: space-around;
+            align-items: center;
+        }
+            .enlace{
+                text-decoration: none;
+                font-size: 20px;
+
+                color: #fff;
+                padding: 5px;
+            }
+        .logo{
+            flex: 1 1 15%;
+            font-size: 40px;
+            color: rgb(97, 129, 64);
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+        
+        }
+            .img{
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+        .sociales{
+            flex: 1 1 15%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            .media{
+                text-decoration: none;
+                font-size: 20px;
+                margin: 10px;
+                color: #00f;
+            }
+    .titulo{
+        height: 580px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        .texto{
+            text-align: center;
+            width: 70%;
+            color: #aaa;
+        }
+.section{
+    background: #000;
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    margin: 5px;
+}
+    .article{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(4.png) ;
+        background-size: cover;
+        flex: 1 1 60%;
+        display: flex;      
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+        .articulos{
+            flex: 1 1 40%;
+            background:  rgba(242, 237, 237,0.7);  
+            border-radius: 5px;
+            margin: 5px;    
+        }
+            .foto{
+                width: 100%;
+                border-radius: 5px;
+                 }
+            .fecha{
+                position: relative;
+                bottom: 50px;
+                left: 15px;
+                color: #fff;
+                text-transform: uppercase;
+            }
+            .info{
+                position: relative;
+                bottom: 50px;
+                margin: 5px;
+            }
+            .leer{
+                background: #06f;
+                color: #fff;
+                text-decoration: none;
+                padding: 10px;
+                margin: 10px;
+                position: relative;
+                bottom: 25px;
+            }
+            .leer:hover{
+                background: #0ff;
+            }
+           
+        .navegacion{
+            flex: 1 1 100%;
+            background: #000;
+            display: flex;
+            justify-content: center;
+        }
+            .boton{
+                color: #FFF;
+                margin-left: 20px;
+                margin-right: 20px;
+                text-decoration: none;
+                font-size: 20px;
+            }
+    .aside{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(5.png);
+        flex: 1 1 25%;
+    }
+        .publicidad{
+            background:  rgba(242, 237, 237,0.7);  
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 400px;
+            flex: 1 1 40%;
+            border-radius: 5%;
+            box-shadow: 0 0 15px 1px #777;
+            margin: 15%;
+
+        }
+.footer{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(7.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+    .pie{
+        width: 400px;
+        height: 50px;
+    }
+        .texto_pie{
+            color: #ffffff;
+            display: flex;
+            margin-top: auto;
+        }
+   

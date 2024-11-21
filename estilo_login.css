@@ -1,0 +1,57 @@
+*{
+ background: #1d1d1d;
+}
+
+.encabezado{
+ 
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 30px 1px #777;
+
+}
+.formulario{
+    color: antiquewhite;
+    display:flex ;  
+    justify-content: center;   
+    margin: 10px;
+    
+    
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255) ;
+    width: 600px;
+    margin: 5px;
+}
+.select{
+   background: aliceblue; 
+   display: flex;
+   flex-direction: column;
+   width: 600px;
+   margin: 5px;
+}
+.segundario{
+    color: antiquewhite;
+    display:flex ;  
+    justify-content: center;   
+    margin: 10px;
+    }
+.option{
+    background: aliceblue;
+    margin: 10px;
+}
+
+.condiciones{
+   color:  antiquewhite;
+   display: flex;
+   justify-content: center;
+}
+.enviar{
+    display: flex;
+   justify-content: end;
+}
+.submit{
+    background: aliceblue;
+}

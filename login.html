@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilo_login.css">
+</head>
+<body>
+    <div class="titulo">
+        <h1 class="encabezado" title="Titulo de la pagina" >Formulario</h1>
+    </div>
+   <form action="" class="formulario">
+        <fieldset>
+            <legend>Informacion Basica</legend>
+                <label  for="name">Nombre</label >
+                    <input type="text" class="input" required placeholder="Nombre" id="name">
+                <label  for="apellido">Apellido</label>
+                    <input type="text" class="input" required placeholder="Apellido" id="apellido">
+                <label  for="email">Email</label>
+                    <input type="email" class="input" required placeholder="ejemplo@gmail.com " id="email"> 
+        </fieldset>
+   </form>
+
+   <div class="segundario">
+        <fieldset>
+            <legend>Informacion Segundaria</legend>
+                <label for="Referente">Referente</label>
+                    <select class="select" name="" id="Referente">
+                        <option class="option" value="1"> Empresa</option>
+                        <option class="option" value="2"> Amigos</option>
+                        <option class="option" value="3"> Otros</option>
+                    </select>
+                <label for="usuario"> Tipo de Usuario</label>
+                    <input class="select" list="usuario" id="usuario" >
+                        <datalist name= "user" id="usuario">
+                           <option  value="1">Acosador</option>
+                           <option  value="2">Seguidor</option>
+                           <option  value="3">Pajuso</option> 
+                        </datalist>    
+                <label for="sms">Mensajes</label>
+                    <textarea class="select" name="" id="sms" placeholder="Escribe tu Mensaje..."></textarea>
+         </fieldset>
+   </div>
+
+   <div class="condiciones">
+        <label for="cond">Aceptar Terminos y Condiciones</label>
+            <form action="" class="eee">
+                <input type="checkbox" required id="cond">
+            </form>
+   </div>
+
+   <form action="" class="enviar">
+        <input type="submit" class="submit">
+   </form>
+
+</body>
+</html>
